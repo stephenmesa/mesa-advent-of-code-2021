@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.mjs",
+    "day1": "node day1Driver.mjs",
+    "day2": "node day2Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel"
   },
