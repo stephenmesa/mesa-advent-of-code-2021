@@ -1,13 +1,13 @@
 import fs from 'fs';
 import assert from 'assert';
 
-const testInput = fs.readFileSync('./inputs/testinput.txt').toString().split('\n').map(Number);
+const testInput = fs.readFileSync('inputs/day1-simple.txt').toString().split('\n').map(Number);
 
 import {
     calc1,
     calc2,
     getWindows,
-} from '../lib.mjs';
+} from '../day1.mjs';
 
 it('Main test', () => {
     const target = calc1(testInput);
