@@ -6,6 +6,7 @@
   "scripts": {
     "day1": "node day1Driver.mjs",
     "day2": "node day2Driver.mjs",
+    "day3": "node day3Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel"
   },
