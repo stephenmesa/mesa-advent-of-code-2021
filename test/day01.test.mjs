@@ -1,15 +1,15 @@
 import fs from 'fs';
 import assert from 'assert';
 
-const testInput = fs.readFileSync('inputs/day1-simple.txt').toString().split('\n').map(Number);
+const testInput = fs.readFileSync('inputs/day01-simple.txt').toString().split('\n').map(Number);
 
 import {
     calc1,
     calc2,
     getWindows,
-} from '../day1.mjs';
+} from '../day01.mjs';
 
-describe('Day 1', () => {
+describe('Day 01', () => {
     it('First problem', () => {
         const target = calc1(testInput);
         assert.equal(target, 7);

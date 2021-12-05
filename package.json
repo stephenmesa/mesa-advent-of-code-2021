@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "day1": "node day1Driver.mjs",
-    "day2": "node day2Driver.mjs",
-    "day3": "node day3Driver.mjs",
-    "day4": "node day4Driver.mjs",
-    "day5": "node day5Driver.mjs",
+    "day01": "node day01Driver.mjs",
+    "day02": "node day02Driver.mjs",
+    "day03": "node day03Driver.mjs",
+    "day04": "node day04Driver.mjs",
+    "day05": "node day05Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel"
   },

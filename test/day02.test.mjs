@@ -5,11 +5,11 @@ import {
     calc1,
     calc2,
     parseInput,
-} from '../day2.mjs';
+} from '../day02.mjs';
 
-const testInput = parseInput(fs.readFileSync('inputs/day2-simple.txt').toString());
+const testInput = parseInput(fs.readFileSync('inputs/day02-simple.txt').toString());
 
-describe('Day 2', () => {
+describe('Day 02', () => {
     it('First problem', () => {
         const target = calc1(testInput);
         assert.equal(target, 150);
