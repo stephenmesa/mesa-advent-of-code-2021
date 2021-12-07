@@ -9,7 +9,8 @@
     "day03": "node day03Driver.mjs",
     "day04": "node day04Driver.mjs",
     "day05": "node day05Driver.mjs",
-    "day06": "node day06Driver.mjs --max-old-space-size=3000",
+    "day06": "node day06Driver.mjs",
+    "day07": "node day07Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel"
   },
