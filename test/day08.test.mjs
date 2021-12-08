@@ -12,11 +12,11 @@ const testInput = parseInput(fs.readFileSync('inputs/day08-simple.txt').toString
 describe('Day 07', () => {
     it('First problem', () => {
         const target = calc1(testInput);
-        assert.equal(target, -1);
+        assert.equal(target, 26);
     });
 
-    it.skip('Second problem', () => {
+    it('Second problem', () => {
         const target = calc2(testInput);
-        assert.equal(target, -1);
+        assert.equal(target, 61229);
     });
 });
