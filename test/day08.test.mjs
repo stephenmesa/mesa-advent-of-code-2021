@@ -9,7 +9,7 @@ import {
 
 const testInput = parseInput(fs.readFileSync('inputs/day08-simple.txt').toString());
 
-describe('Day 07', () => {
+describe('Day 08', () => {
     it('First problem', () => {
         const target = calc1(testInput);
         assert.equal(target, 26);

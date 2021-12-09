@@ -12,6 +12,7 @@
     "day06": "node day06Driver.mjs",
     "day07": "node day07Driver.mjs",
     "day08": "node day08Driver.mjs",
+    "day09": "node day09Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel"
   },
