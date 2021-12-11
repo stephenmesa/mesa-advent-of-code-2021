@@ -8,5 +8,5 @@ import {
 
 const input = parseInput(fs.readFileSync('inputs/day11.txt').toString());
 
-console.log('Day 11 - First answer', calc1(input));
+console.log('Day 11 - First answer', calc1(input, 100));
 console.log('Day 11 - Second answer', calc2(input));
