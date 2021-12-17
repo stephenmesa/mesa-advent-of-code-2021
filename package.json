@@ -20,6 +20,7 @@
     "day14": "node day14Driver.mjs",
     "day15": "node day15Driver.mjs",
     "day16": "node day16Driver.mjs",
+    "day17": "node day17Driver.mjs",
     "test": "mocha",
     "watch": "mocha --watch --parallel",
     "new-day": "node newDay.mjs"
