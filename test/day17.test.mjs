@@ -14,8 +14,8 @@ describe('Day 17', () => {
         const target = calc1(testInput);
         assert.equal(target, 45);
     });
-    it.skip('Part 2', () => {
+    it('Part 2', () => {
         const target = calc2(testInput);
-        assert.equal(target, -1);
+        assert.equal(target, 112);
     });
 });
